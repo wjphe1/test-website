@@ -17,5 +17,25 @@ Visit Here -> [https://www.studiosowieso.com/](https://www.studiosowieso.com/)
 1. **Clone the Repository**: Go to a directory in your computer, on your terminal, type:
 
 ```
-git clone
+git clone https://github.com/wjphe1/test-website.git
 ```
+
+2. **Navigate to your folder**: type:
+
+```
+cd test-website
+```
+
+3. **Start working on your codes**
+
+4. **Push Commit**: Once you done editing, or you want to push an update, type:
+
+```
+git add .
+
+git commit -m "your commit message (e.g: changed background color)"
+
+git push
+```
+
+5. **Thats it**
