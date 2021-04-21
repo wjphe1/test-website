@@ -4,8 +4,7 @@
   
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Hello Word !! This Is index Home</title>
   <meta content="Studio Sowieso - Einfach. Weniger. Gutes Design entsteht mit dem Blick für das Wesentliche." name="description"/>
@@ -27,8 +26,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+	<link href="https://uploads-ssl.webflow.com/6006b3661e36876afd68bc8a/60364eede952ba0356995ea0_StudioSowieso_Favicon.jpg" rel="shortcut icon" type="image/x-icon"/>
+	<link href="https://uploads-ssl.webflow.com/6006b3661e36876afd68bc8a/60364f1bdfa324b13f642146_StudioSowieso_Webclip.png" rel="apple-touch-icon"/>
+	<link href="u932Cxp0XhZMcY9cuV7WPSzIMfmnK8Vm5QMvisFO7Lo/" rel="canonical"/>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,8 +39,66 @@
   <link rel="stylesheet" href="css/skeleton.css">
 
   <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  ––––––––––––––––––––––––––––––––––––––––––––––––––
+  <link rel="icon" type="image/png" href="images/favicon.png">-->
+  <style> 
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .project-category-item {
+          position: relative;
+          padding-right: 1rem;
+      }
+    
+      .project-category-item::after {
+          content: " - ";
+          position: absolute;
+          top: 0%;
+          right: 0rem;
+          transform: translateY(-.2rem);
+      }
+    
+      .project-category-item:last-child::after {
+          content: none;
+      }
+  
+    .circle {
+          position: relative;
+          
+      }
+    .circle__svg, .circle__svg--two, .circle__svg--three {
+      position: absolute;
+      }
+    
+    <!--球体的跳动-->
+      .circle__svg {
+      animation: spinnAnim 6s infinite linear;
+      }
+      
+    .circle__svg--two {
+      
+      animation: spinnAnim 9s infinite linear;
+      }
+  
+    .circle__svg--three {
+      
+      animation: spinnAnim 10s infinite linear .0s;
+     }
+  
+    @keyframes spinnAnim {
+          5% {
+              transform: rotate(0) scale(1);
+          }
+          35% {
+              transform: rotate(150deg) scale(1);
+          }
+          70% {
+            transform: rotate(250deg) scale(1);
+          }
+      }
+  </style>
 
 </head>
 
@@ -65,7 +126,8 @@
           </a>
           <div class="line-separator"></div>
           <a href="#" data-w-id="7bbc59d6-3a6e-6b97-a991-5b8815d5e61c" class="link-block-invert w-inline-block">
-            <div>KONTAKT</div><div class="hover-line"></div>
+            <div>KONTAKT</div>
+            <div class="hover-line"></div>
           </a>
         </div>
       </div>
@@ -98,12 +160,12 @@
           </div>
           <div class="div-block-5 frontpage-title-block">
             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 4DEG);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 4DEG);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 4DEG);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 4DEG)" class="overflow-x-hidden">
-              <h1 class="show-onload display-1 align-right">Alles wird<br/>Hello Word!</h1>
+              <h1 class="show-onload display-1 align-right">Alles wird<br/>Hello Word!!!</h1>
             </div>
           </div>
           <div class="w-embed">
             <style>
-              @media screen and (max-width: 500px) {
+              @media screen and (max-width: 350px) {
                 .frontpage-title-block {
                   position: absolute;
                   bottom: 5rem;
