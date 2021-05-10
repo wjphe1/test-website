@@ -45,3 +45,13 @@ body {
     font-weight: 400;
     text-decoration: none;
 }
+
+.menu{
+    transform: translate(50%, 0%) rotate(-90deg);
+    position: fixed;
+    left: auto;
+    top: auto;
+    right: 0px;
+    bottom: 50%;
+    width: 100vh;
+}
