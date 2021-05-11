@@ -46,6 +46,17 @@ body {
     text-decoration: none;
 }
 
+
+.rtv{
+    
+    color: #000;
+    display: flex;
+    width: 100vh;
+    height: 10rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
 .menu{
     transform: translate(50%, 0%) rotate(-90deg);
     position: fixed;
