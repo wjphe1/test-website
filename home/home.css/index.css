@@ -48,21 +48,24 @@ body {
 
 
 .rtv{
-    
-    color: #000;
-    display: flex;
-    width: 100vh;
-    height: 10rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    color: hsla(0, 0%, 100%, 0);
+    height: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    opacity: 1;
 }
 
 .menu{
-    transform: translate(50%, 0%) rotate(-90deg);
     position: fixed;
-    left: auto;
     top: auto;
+    left: auto;
+    transform: translate(50%, 0%) rotate(-90deg);
+    text-decoration: none;
+    position: fixed;
     right: 0px;
     bottom: 50%;
     width: 100vh;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
