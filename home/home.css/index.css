@@ -43,29 +43,47 @@ body {
     font-size: 6.5vw;
     line-height: 1.3;
     font-weight: 400;
+    
     text-decoration: none;
 }
 
 
 .rtv{
-    color: hsla(0, 0%, 100%, 0);
-    height: 3rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    opacity: 1;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    color: #000;
+    text-decoration: none;
+
 }
 
 .menu{
     position: fixed;
-    top: auto;
     left: auto;
-    transform: translate(50%, 0%) rotate(-90deg);
-    text-decoration: none;
-    position: fixed;
+    top: auto;
     right: 0px;
-    bottom: 50%;
-    width: 100vh;
+    bottom: 30%;
+    z-index: 50;
     display: flex;
+    width: 100vh;
+    height: 10rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    justify-content: flex-end;
     align-items: center;
+    perspective-origin: 0% 50%;
+    transform: translate(50%, 0%) rotate(-90deg);
+    transform-origin: 50% 100%;
+    font-size: 0.625rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
     text-transform: uppercase;
+}
+
+.logo w-inline-block w--current{
+    box-sizing: border-box;
+}
+
+.image-3{
+    box-sizing: border-box;
 }
