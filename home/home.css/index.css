@@ -87,3 +87,33 @@ body {
 .image-3{
     box-sizing: border-box;
 }
+
+.nav-item {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0 20px;
+    transition: 0.3s all;
+    position: relative;
+}
+
+.hover-line {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    transition: 0.3s all;
+}
+
+.nav-item:hover {
+    color: purple;
+}
+
+.nav-item:hover > .hover-line {
+    width: 100%;
+}
