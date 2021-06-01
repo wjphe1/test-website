@@ -89,6 +89,11 @@ body {
     box-sizing: border-box;
 }
 
+.rtv-left{
+    right: auto;
+    transform: translate(50%, 0%) rotate(-90deg);
+}
+
 .hover-line {
     position: absolute;
     left: 0%;
