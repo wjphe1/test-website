@@ -86,12 +86,24 @@ body {
 }
 
 .image-3{
-    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
 .rtv-left{
-    right: auto;
-    transform: translate(50%, 0%) rotate(-90deg);
+    max-width: 100%;
+    display: inline-block;
+}
+
+.img{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
 }
 
 .hover-line {
